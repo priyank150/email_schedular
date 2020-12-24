@@ -1,5 +1,8 @@
 # email_schedular
 
+In app.js
+Insert sender email id and password. line 19, 20
+
 Routes: 
 
 POST - http://localhost:8080/schedule
