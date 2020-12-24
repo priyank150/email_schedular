@@ -29,6 +29,6 @@ put request body
 
 
 
-**This Service is configured for gmail only. In case you get security alert in gmail. Go to google account and in security tab turn on access to less secure app access.
+**This Service is configured for gmail only. In case you get security alert in sender's gmail account. Go to google account and in security tab turn on access to less secure app access.
 
 
