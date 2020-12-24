@@ -149,3 +149,9 @@ app.put('/schedule/:id', async (req, res) => {
         console.log('error', error)
     }
 })
+
+app.get('/failed', async (req, res) => {
+    let select = `SELECT * FROM email_schedule WHERE status = 3`
+    let resp = await dbQuery(select);
+    res.json(resp);
+})
