@@ -16,8 +16,8 @@ app.listen(port, () => console.log('Server is listening on port ', port));
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'sangeetsashi@gmail.com',
-        pass: 'sangeet@1234'
+        user: 'Insert sender email address',
+        pass: 'Insert sender email password'
     }
 });
 
@@ -62,13 +62,7 @@ cron.schedule('* * * * *', async () => {
 
 });
 
-// {
-//     "from_emailId": "sangeetsashi@gmail.com",
-//     "to_emailId": "madhur.151190@gmail.com",
-//     "shceduled_time": "24-12-2020 18:36",
-//     "email_subject": "Testing Nodemailer update",
-//     "email_text": "Some"
-// }
+
 
 app.post('/schedule', async (req, res) => {
     // console.log('body', req.body);
