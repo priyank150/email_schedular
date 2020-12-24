@@ -28,6 +28,21 @@ put request body
 }
 
 
+Database query
+
+CREATE TABLE `email_schedule` (
+  `idemail_schedule` int(11) NOT NULL AUTO_INCREMENT,
+  `created_time` varchar(45) NOT NULL,
+  `status` int(11) NOT NULL,
+  `from_emailId` varchar(45) NOT NULL,
+  `to_emailId` varchar(45) NOT NULL,
+  `shceduled_time` varchar(45) NOT NULL,
+  `email_subject` varchar(100) DEFAULT NULL,
+  `email_text` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`idemail_schedule`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1
+
+
 
 **This Service is configured for gmail only. In case you get security alert in sender's gmail account. Go to google account and in security tab turn on access to less secure app access.
 
