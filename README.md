@@ -28,6 +28,9 @@ put request body
 }
 
 
+
+database name - booking
+
 Database query
 
 CREATE TABLE `email_schedule` (
