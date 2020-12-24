@@ -1,0 +1,19 @@
+{
+  "name": "email_schedular",
+  "version": "1.0.0",
+  "description": "email schedule",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Priyank",
+  "license": "ISC",
+  "dependencies": {
+    "express-app-generator": "^1.0.6",
+    "mysql2": "^2.1.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.3"
+  }
+}
